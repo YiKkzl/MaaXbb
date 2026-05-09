@@ -1,0 +1,124 @@
+{
+    "$__mpe_config_huanshu_ChooseMidCard": {
+        "$__mpe_code": {
+            "filePath": "D:\\MaaDev\\MaaXbb\\assets\\resource\\pipeline\\huanshu_ChooseMidCard.json",
+            "filename": "huanshu_ChooseMidCard",
+            "isDeleted": true,
+            "lastSyncTime": 1778346340877,
+            "prefix": "",
+            "savedViewport": {
+                "x": -1538,
+                "y": 384,
+                "zoom": 0.86
+            },
+            "version": "v1.5.2"
+        }
+    },
+    "确定": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2252,
+                "y": 14
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "重复点击1"
+        ]
+    },
+    "选中间卡": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1932,
+                "y": 14
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    554,
+                    155,
+                    171,
+                    235
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "确定"
+        ]
+    },
+    "重复点击1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2572,
+                "y": 14
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "重复点击2"
+        ]
+    },
+    "重复点击2": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2892,
+                "y": 14
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "重复点击3"
+        ]
+    },
+    "重复点击3": {
+        "$__mpe_code": {
+            "position": {
+                "x": 3212,
+                "y": 14
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            },
+            "type": "Click"
+        }
+    }
+}
