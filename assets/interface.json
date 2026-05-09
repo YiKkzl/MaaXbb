@@ -60,8 +60,9 @@
     // },
     "task": [
         {
-            "name": "普通任务",
-            "entry": "MyTask1"
+            "name": "uplevel",
+            "label": "升级",
+            "entry": "点击右侧书"
         },
         {
             "name": "选项任务",
