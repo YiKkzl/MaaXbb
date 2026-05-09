@@ -1,0 +1,812 @@
+{
+    "$__mpe_config_新建Pipeline2": {
+        "$__mpe_code": {
+            "prefix": "",
+            "savedViewport": {
+                "x": 208,
+                "y": 737,
+                "zoom": 0.4
+            },
+            "filename": "新建Pipeline2",
+            "version": "v1.5.2"
+        }
+    },
+    "$__mpe_group_选中间卡_副本1_新建Pipeline2": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1774,
+                "y": -67
+            },
+            "color": "blue",
+            "childrenLabels": [
+                "确定_副本5_副本9",
+                "重复点击1_副本1_副本11",
+                "重复点击2_副本8_副本12",
+                "重复点击3_副本9_副本13"
+            ],
+            "width": 1598,
+            "height": 267
+        }
+    },
+    "$__mpe_group_分组_副本2_新建Pipeline2": {
+        "$__mpe_code": {
+            "position": {
+                "x": 5515,
+                "y": 17
+            },
+            "color": "blue",
+            "childrenLabels": [
+                "确定_副本5_副本14_副本18",
+                "重复点击1_副本16_副本19",
+                "重复点击2_副本8_副本17_副本20",
+                "重复点击3_副本9_副本18_副本21",
+                "选中间卡_副本6_副本19_副本25"
+            ],
+            "width": 1532,
+            "height": 301
+        }
+    },
+    "点击右侧书_副本3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    741,
+                    195,
+                    270,
+                    314
+                ]
+            }
+        },
+        "next": [
+            "选难4_副本4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 198,
+                "y": -186
+            }
+        }
+    },
+    "选难4_副本4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    110,
+                    278,
+                    76,
+                    30
+                ]
+            }
+        },
+        "next": [
+            "挑战_副本5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 448,
+                "y": 27
+            }
+        }
+    },
+    "挑战_副本5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    878,
+                    528,
+                    97,
+                    29
+                ]
+            }
+        },
+        "next": [
+            "选皇帝_副本6"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 690,
+                "y": 31
+            }
+        }
+    },
+    "选皇帝_副本6": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "皇帝"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "下一步_副本7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 971,
+                "y": 25
+            }
+        }
+    },
+    "下一步_副本7": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    569,
+                    639,
+                    138,
+                    35
+                ]
+            }
+        },
+        "next": [
+            "开始冒险_副本8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1267,
+                "y": 31
+            }
+        }
+    },
+    "开始冒险_副本8": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    1030,
+                    647,
+                    151,
+                    35
+                ]
+            }
+        },
+        "next": [
+            "选中间卡_副本6_副本10",
+            "确定_副本5_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1513,
+                "y": 38
+            }
+        }
+    },
+    "确定_副本5_副本9": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击1_副本1_副本11"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1432,
+                "y": 103
+            }
+        }
+    },
+    "选中间卡_副本6_副本10": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    554,
+                    155,
+                    171,
+                    235
+                ]
+            }
+        },
+        "next": [
+            "确定_副本5_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1801,
+                "y": -180
+            }
+        }
+    },
+    "重复点击1_副本1_副本11": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击2_副本8_副本12"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1143,
+                "y": 103
+            }
+        }
+    },
+    "重复点击2_副本8_副本12": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击3_副本9_副本13"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -854,
+                "y": 103
+            }
+        }
+    },
+    "重复点击3_副本9_副本13": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "新建节点56_副本26",
+            "新建节点56_副本20_副本27",
+            "新建节点56_副本21_副本28"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -565,
+                "y": 103
+            }
+        }
+    },
+    "新建节点32_副本14": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "前进"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点60_副本35"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3706,
+                "y": 72
+            }
+        }
+    },
+    "新建节点36_副本15": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "退出"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "确定_副本5_副本10_副本16"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4273,
+                "y": 95
+            }
+        }
+    },
+    "确定_副本5_副本10_副本16": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击1_副本7_副本11_副本17"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4590,
+                "y": 130
+            }
+        }
+    },
+    "重复点击1_副本7_副本11_副本17": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "选中间卡_副本6_副本19_副本25"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4858,
+                "y": 141
+            }
+        }
+    },
+    "确定_副本5_副本14_副本18": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击1_副本16_副本19"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -5232,
+                "y": 37
+            }
+        }
+    },
+    "重复点击1_副本16_副本19": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击2_副本8_副本17_副本20"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -4943,
+                "y": 37
+            }
+        }
+    },
+    "重复点击2_副本8_副本17_副本20": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "重复点击3_副本9_副本18_副本21"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -4654,
+                "y": 37
+            }
+        }
+    },
+    "重复点击3_副本9_副本18_副本21": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    740,
+                    636,
+                    152,
+                    43
+                ]
+            }
+        },
+        "next": [
+            "退出_副本22"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -4365,
+                "y": 37
+            }
+        }
+    },
+    "退出_副本22": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    58,
+                    33,
+                    40,
+                    30
+                ]
+            }
+        },
+        "next": [
+            "新建节点45_副本23"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6825,
+                "y": 394
+            }
+        }
+    },
+    "新建节点45_副本23": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "中止并结算"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点46_副本24"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7180,
+                "y": 257
+            }
+        }
+    },
+    "新建节点46_副本24": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "点击右侧书_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7514,
+                "y": 268
+            }
+        }
+    },
+    "选中间卡_副本6_副本19_副本25": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "确定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    554,
+                    155,
+                    171,
+                    235
+                ]
+            }
+        },
+        "next": [
+            "确定_副本5_副本14_副本18"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -5478,
+                "y": 19
+            }
+        }
+    },
+    "新建节点56_副本26": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    577,
+                    498,
+                    124,
+                    32
+                ],
+                "expected": [
+                    "普通战斗"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点32_副本14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3435,
+                "y": -105
+            }
+        }
+    },
+    "新建节点56_副本20_副本27": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    577,
+                    498,
+                    124,
+                    32
+                ],
+                "expected": [
+                    "精英战斗"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点32_副本14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3338,
+                "y": 118
+            }
+        }
+    },
+    "新建节点56_副本21_副本28": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    577,
+                    498,
+                    124,
+                    32
+                ],
+                "expected": [
+                    "事件"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点32_副本22_副本29"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3333,
+                "y": 330
+            }
+        }
+    },
+    "新建节点32_副本22_副本29": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "前进"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点57_副本30"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3687,
+                "y": 348
+            }
+        }
+    },
+    "新建节点57_副本30": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "继续"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点58_副本31"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4005,
+                "y": 343
+            }
+        }
+    },
+    "新建节点58_副本31": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    669,
+                    154,
+                    284,
+                    81
+                ]
+            }
+        },
+        "next": [
+            "新建节点58_副本23_副本32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4301,
+                "y": 354
+            }
+        }
+    },
+    "新建节点58_副本23_副本32": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    669,
+                    154,
+                    284,
+                    81
+                ]
+            }
+        },
+        "next": [
+            "新建节点58_副本24_副本33"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4561,
+                "y": 397
+            }
+        }
+    },
+    "新建节点58_副本24_副本33": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    669,
+                    154,
+                    284,
+                    81
+                ]
+            }
+        },
+        "next": [
+            "新建节点59_副本34"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4846,
+                "y": 425
+            }
+        }
+    },
+    "新建节点59_副本34": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "结束"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "退出_副本22"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5155,
+                "y": 478
+            }
+        }
+    },
+    "新建节点60_副本35": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "开始冒险"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "新建节点36_副本15"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3986,
+                "y": 97
+            }
+        }
+    }
+}
