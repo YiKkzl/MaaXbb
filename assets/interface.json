@@ -38,8 +38,7 @@
     ],
     "resource": [
         {
-            "name": "default",
-            "label": "默认资源",
+            "name": "官服",
             "path": [
                 "./resource"
             ]
