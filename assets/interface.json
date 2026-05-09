@@ -4,14 +4,14 @@
     // 文档：https://maafw.xyz/docs/3.3-ProjectInterfaceV2
     // 示例：https://github.com/MaaXYZ/MaaFramework/blob/main/sample/interface.json
     "interface_version": 2,
-    "name": "MaaXbb",
+    "name": "MaaXXX",
     "description": "这是一个使用 MaaFramework 创建的新项目。",
     "contact": "QQ群: 123456789",
     "license": "MIT",
     "welcome": "首次使用！欢迎使用 MAA!",
     // 填写项目地址和版本号可实现自动更新功能
-    "github": "https://github.com/YiKkzl/MaaXbb",
-    "version": "0.0.1",
+    "github": "https://github.com/MaaXYZ/MaaPracticeBoilerplate",
+    "version": "1.0.0",
     // Mirror酱为第三方分发服务，新项目默认关闭
     // 若有需要请联系 Mirror酱 开通，直接自行开启是无法使用的
     // "mirrorchyan_rid": "MaaXXX",
@@ -20,7 +20,7 @@
         {
             "name": "安卓端",
             "type": "Adb",
-            "display_short_side": 1080 // 默认缩放分辨率的短边长度
+            "display_short_side": 720 // 默认缩放分辨率的短边长度
         },
         {
             "name": "桌面端",
@@ -38,10 +38,16 @@
     ],
     "resource": [
         {
-            "name": "default",
-            "label": "默认资源",
+            "name": "官服",
             "path": [
                 "./resource"
+            ]
+        },
+        {
+            "name": "B 服",
+            "path": [
+                "./resource"
+                // "./resource_bilibili"
             ]
         }
     ],
@@ -54,14 +60,50 @@
     // },
     "task": [
         {
-            "name": "uplevel",
-            "label": "升级",
-            "entry": "点击右侧书"
+            "name": "普通任务",
+            "entry": "MyTask1"
         },
         {
-            "name": "choosemidcard",
-            "label": "选中间卡",
-            "entry": "选中间卡"
+            "name": "选项任务",
+            "entry": "MyTask2",
+            "option": [
+                "任务选项1"
+            ]
+        },
+        {
+            "name": "参数任务",
+            "entry": "MyTask3",
+            "option": [
+                "任务选项1"
+            ],
+            "pipeline_override": {}
+        },
+        {
+            "name": "带Custom的任务",
+            "entry": "MyTask4"
         }
-    ]
+    ],
+    "option": {
+        "任务选项1": {
+            "type": "select",
+            "cases": [
+                {
+                    "name": "文本1",
+                    "pipeline_override": {
+                        "OcrTask": {
+                            "text": "文本1"
+                        }
+                    }
+                },
+                {
+                    "name": "文本2",
+                    "pipeline_override": {
+                        "OcrTask": {
+                            "text": "文本2"
+                        }
+                    }
+                }
+            ]
+        }
+    }
 }
